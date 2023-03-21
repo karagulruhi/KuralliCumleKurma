@@ -1,0 +1,115 @@
+kolay:Ben her sabah spor yaparım.
+kolay:Bugün hava çok güzel.
+kolay:İstanbul'da trafik çok yoğun.
+kolay:Annem yarın doğum günü kutlayacak.
+kolay:Geçen hafta sonu sinemaya gittim.
+kolay:Bu kitap çok ilginç.
+kolay:Arabamı yeni aldım.
+kolay:Bugün okula geç kaldım.
+kolay:Yemekte tavuk yedik.
+kolay:Sinirli olduğumda müzik dinlerim.
+kolay:Bu yıl yaz tatilimi İspanya'da geçireceğim.
+kolay:Dün gece geç saatte uyudum.
+kolay:Arkadaşım bana doğum günü hediyesi verdi.
+kolay:Şu an bir film izliyorum.
+kolay:Bu restoranın yemekleri çok lezzetli.
+kolay:Yarın sınavım var, çok çalışmam gerekiyor.
+kolay:Kışın kar yağar.
+kolay:Havaalanına arabayla gitmek yaklaşık 45 dakika sürer.
+kolay:Kitap okumayı çok seviyorum.
+Kolay: Akşam yemeğinde salata yapacağım.
+Kolay: Bu çanta çok ağır.
+Kolay: Güzel bir çiçek buketi aldım.
+Kolay: Bütün gün evde oturup kitap okudum.
+Kolay: Kardeşim bugün okulda başarılı bir sınav yaptı.
+Kolay: Bu yazıyı okumak için gözlük takıyorum.
+Kolay: Seninle tanıştığıma sevindim.
+Kolay: Bu kitap çok ilginç.
+Kolay: Bugün hava çok güzel.
+Kolay: İşte çok yoğun çalışıyoruz.
+Kolay: Arabanız çok hızlı gidiyor.
+Kolay: Yarın erken kalkacağım.
+Kolay: Bahar aylarında çiçekler açar.
+Kolay: Benimle yürüyüşe çıkacak mısın?
+Kolay: Bugün ne yapmak istersin?
+Kolay: Annem yemek yapıyor.
+Kolay: Ben okulda öğretmenimle konuşuyorum.
+Kolay: Senin ayakkabıların çok şık.
+Kolay: Bu film çok komik.
+Kolay: Benim en sevdiğim renk mavi.
+Kolay: Bugün okulda yeni bir arkadaş edindim.
+Kolay: Dışarıda hava çok soğuk.
+Kolay: Babam her sabah kahve içer.
+Kolay: Bu ayki derginin kapağı çok güzel.
+Kolay: Yarın tatil günü olduğu için planlarım var.
+kolay: Yarın tatil günü olduğu için planlarım var.
+kolay: Benim telefonumun ekranı çatladı.
+kolay: Kedi pencereden dışarıya bakıyor.
+kolay: Benim kardeşim de aynı okula gidiyor.
+kolay: Dün gece yıldızları izledik.
+kolay: Bugün yorgun hissediyorum.
+kolay: Kitaplığımda birçok ilginç kitap var.
+kolay: Arkadaşımın doğum günü için parti planlıyoruz.
+kolay: Bu yıl tatil için deniz kenarına gideceğiz.
+kolay: Sinemada yeni bir film izleyeceğiz.
+kolay: Çamaşırlarımı yıkayıp kurutmam gerekiyor.
+orta: Ne kadar çalışırsan çalış, her zaman daha iyi yapabilirsin.
+orta: Geleceği planlamak zor, ama yine de önemlidir.
+orta: Başarılı olmak için çaba sarf etmek gerekir.
+orta: Hatalar yapmak kaçınılmazdır, ama onları düzeltmek önemlidir.
+orta: İyi bir lider olmak için, önce iyi bir takım oyuncusu olmak gerekir.
+orta: Kendine inanmak, başarının anahtarıdır.
+orta: Dürüstlük her zaman en iyi politikadır.
+orta: Kendine zaman ayırmak önemlidir, aşırı çalışmak yorucu olabilir.
+orta: Herhangi bir konuda uzman olmak zaman alır, sabırlı olmak gerekir.
+orta: Hayatta karşılaştığımız zorluklar bizi daha güçlü yapar.
+orta: İnsanlar hakkında yargılamadan önce onları tanımak önemlidir.
+orta: Kendine saygı duymak, başkalarının saygısını kazanmanın anahtarıdır.
+orta: Hayatta kalmak için, değişime uyum sağlamak gereklidir.
+orta: Eğitim, hayatta başarılı olmanın en önemli araçlarından biridir.
+orta: Kendi düşüncelerimizi sorgulamak ve yeniden değerlendirmek, büyümek için önemlidir.
+orta: İnsanların farklı olması, dünya daha ilginç ve zengin bir yer yapar.
+orta: Kendine güvenmek, kendine saygı duymanın bir parçasıdır.
+orta: Hayatta herhangi bir şeyi başarmak için, sabırlı olmak ve azimli olmak gerekir.
+orta: Duygusal zeka, kişisel ve profesyonel başarının önemli bir bileşenidir.
+orta: İnsanların geçmişiyle ilgili yargılamadan önce, onları dinlemek gerekir.
+zor: Geçen hafta sonu arkadaşlarımla piknik yaptık ve çok eğlendik.
+zor: İşe gitmeden önce kahvaltı yapmayı seviyorum.
+zor: Bu sınavın zor olacağını biliyordum, ama yine de hazırlanmadım.
+zor: İstanbul'da yaşamak bazen stresli olabiliyor ama yine de seviyorum.
+zor: Annemler bu hafta sonu bize gelecekler, hazırlıklarımızı yapıyoruz.
+zor: Bu yıl okula başlamadan önce İspanya'da tatil yapmayı planlıyorum.
+zor: Yarın arkadaşlarımla buluşacağız ve yeni açılan restoranda yemek yiyeceğiz.
+zor: Sinemaya gitmek yerine evde film izlemeyi tercih ediyorum çünkü daha rahat hissediyorum.
+zor: Geçen ay bir otelde tatil yaptık ve güzel bir deneyim oldu.
+zor: Bu hafta sonu evde kalıp kitap okuyacağım, dinlenmeye ihtiyacım var.
+zor: Geçen hafta sonu bisikletle şehir turu yaptım ve yeni yerler keşfettim.
+zor: Sınavdan sonra kendimi rahatlatmak için arkadaşlarımla birlikte sinemaya gittim.
+zor: Genellikle akşam yemekleri için evde yemek yapıyoruz, daha sağlıklı olduğunu düşünüyoruz.
+zor: Hafta sonu alışveriş yapmaya gittim ve yeni bir çanta aldım.
+zor: Geçen yaz İtalya'ya gitmiştim ve harika bir tatil geçirdim.
+zor: Yarın sabah erkenden kalkıp spor yapacağım, sağlıklı kalmak için önemli.
+zor: Geçen hafta sonu bir arkadaşımın doğum gününü kutladık ve eğlenceli vakit geçirdik.
+zor: Yarın iş görüşmesi için hazırlanmam gerekiyor, biraz heyecanlıyım.
+zor: Bu yıl seyahat etmek için birkaç farklı yer planlıyorum ama henüz karar vermedim.
+zor: Sinirlendiğimde müzik dinleyip kendimi sakinleştiriyorum.
+çok zor: Günümüz dünyasında teknolojinin hızla gelişmesi, insanların hayatını kolaylaştırırken aynı zamanda sosyal ve kültürel değişimlere de yol açıyor.
+çok zor: Etkili bir lider olmak, liderlik tarzını çalışanlarının ihtiyaçlarına göre uyarlamaktan geçer.
+çok zor: Çevremizdeki doğal kaynakların korunması, gelecek nesillerin de bu kaynakları kullanabileceği anlamına gelir.
+çok zor: Başarılı bir iş kurmanın temelinde, iyi bir iş planı yapmak, doğru insanları seçmek ve sıkı bir disiplin ile çalışmak yatar.
+çok zor: Sağlıklı bir yaşam sürdürmek, düzenli egzersiz yapmak, sağlıklı beslenmek ve stresi yönetmekten geçer.
+çok zor: İnsanların düşüncelerine saygı göstermek, farklı bakış açılarını anlamak ve açık fikirli olmak, daha anlayışlı bir dünya için önemlidir.
+çok zor: Bilim ve teknolojinin hızlı gelişimi, insanların hayatını kolaylaştırırken aynı zamanda etik, sosyal ve siyasal sorunlara da yol açabiliyor.
+çok zor: Dünya genelinde artan nüfus ve ekonomik büyüme, doğal kaynakların daha sürdürülebilir bir şekilde kullanılması için yenilikçi çözümler bulunmasını gerektiriyor.
+çok zor:İnsanların sağlık hizmetlerine erişimi, toplumların refahı ve ekonomik kalkınması için önemlidir.
+çok zor: İnsanların seyahat etmesi, farklı kültürleri keşfetmeleri, yeni arkadaşlar edinmeleri ve kişisel gelişimleri için önemlidir.
+çok zor: Filozoflar arasında, gerçekliğin ne olduğu ve insanların neyin doğru ve yanlış olduğuna karar vermede kullandığı kriterler hakkında farklı fikirler vardır.
+çok zor: İnsan beyninin çalışma mekanizmalarını anlamak, beyin hastalıklarının tedavisi için önemlidir.
+çok zor: Çağdaş sanat, geleneksel sanatın ötesine geçerek, genellikle soyut ve deneysel bir biçimde ifade edilir.
+çok zor: İnsanların sosyal davranışlarını anlamak, insanlar arasındaki ilişkileri geliştirmek ve sorunları çözmek için önemlidir.
+çok zor: İnsanların doğal kaynaklar üzerindeki tüketimi, dünya genelinde sürdürülebilir bir gelecek için büyük bir tehdit oluşturuyor.
+çok zor: Çocukların erken yaşta okuma alışkanlığı kazanmaları, hayatları boyunca daha başarılı bir şekilde öğrenmelerine yardımcı olabilir.
+çok zor: İnsanların yaşamlarının herhangi bir noktasında, çeşitli nedenlerle hayatlarını yeniden düşünmeleri gerekebilir.
+çok zor: Farklı ülkelerin ekonomik sistemleri ve politikaları, dünya ekonomisini doğrudan etkiler ve küresel ticarete yön verir.
+çok zor: İnsanların birbirleriyle iletişim kurabilmesi, teknolojinin hızla gelişmesiyle birlikte daha kolay hale gelmiştir.
+çok zor:İnsanların hayatlarındaki önemli kararları verirken, çoğu zaman mantık ve duygular arasında bir denge kurmak önemlidir.

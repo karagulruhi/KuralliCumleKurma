@@ -1,0 +1,329 @@
+
+<MenuScreen>:
+    
+    cols:1
+    size_hint:0.6,0.7
+    pos_hint: {'center_x': 0.5,'center_y': 0.5}
+    
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: "İSİM"
+            
+        TextInput:
+            multiline:False
+            id:textId
+            padding_y:20,20
+            #textin konumu
+            size_hint:1,0.5
+            #oransal boyutu
+        Label:
+            text: "YAŞ"
+            
+            
+        TextInput:
+            id:ageId
+            multiline:False
+            input_filter: "int"
+            padding_y:20,20
+            size_hint:1,0.5
+        Button:
+            text:"ONAYLA"
+            id: first_button
+            size_hint:1,0.5
+            disabled: True if ageId.text == '' or textId.text == '' else False
+            on_press: 
+                root.manager.current = 'mode'
+ 
+ 
+<ModeScreen>:
+    
+    cols:1
+    size_hint:0.6,0.7
+    pos_hint: {'center_x': 0.5,'center_y': 0.5}
+    BoxLayout:
+        BoxLayout:
+            orientation: 'vertical'
+
+            Button:
+                text:"KOLAY"
+                id: press_kolay        
+                size_hint:(1,.5)
+                width:100
+                heigth:50
+                
+                on_press:
+                    root.manager.current = 'easy'
+                
+            Button:
+                text:"ORTA"
+                id: press_orta
+                size_hint:(1,.5)
+                width:200
+                heigth:50
+                on_press:
+                    root.manager.current = 'semiHard'
+               
+            Button:
+                text:"ZOR"
+                id: press_zor          
+                size_hint:(1,.5)
+                width:300
+                heigth:50
+                on_press:
+                    root.manager.current = 'hard'
+
+            Button:
+                text:"ÇOK ZOR"
+                id: press_cok_zor    
+                size_hint:(1,.5)
+                width:400
+                heigth:50
+                on_press:
+                    root.manager.current = 'veryHard'
+    
+<EasyScreen>:
+    cols:2
+    size_hint:0.6,0.7
+    pos_hint: {'center_x': 0.5,'center_y': 0.5}
+    orientation: 'vertical'
+    FloatLayout:
+    
+        Label:
+            text:'BAŞLAMAK İÇİN YENİ CÜMLEYE BAS'
+            size_hint_y: None
+            id:sentence_box
+            size_hint:1,0.2
+            pos_hint:{'x':0,'y':0.8}
+            text_size: self.width, None
+            
+        TextInput:
+            id:answerId
+            hint_text:"CEVABI BURAYA YAZIN.%100 DOĞRULUK İÇİN NOKTALAMA KURALLARINA VE BÜYÜK HARFE DİKKAT ET!"
+            padding_y:20,20
+            size_hint:1,0.2
+            pos_hint:{'x':0,'y':0.6}
+            readonly: True
+        Button:
+            text:"YENİ CÜMLE"
+            id: forward
+            size_hint:(0.5,.2)
+            pos_hint:{'x':0.5,'y':0.0}
+            on_press:
+                root.sendEasySentence()
+                answerId.readonly = False     
+                
+        Button:
+            text:"KONTROL ET"
+            id: check_button  
+            size_hint:(0.5,0.2)
+            pos_hint:{'x':0.5,'y':0.3}
+            on_press:
+                root.submit(answerId.text)
+                
+        Label:
+            text:''
+            id:feedback
+            pos_hint:{'x':0,'y':0.3}
+            size_hint:(1,0.1)
+            text_size: self.width, None
+            height: self.texture_size[1]
+            
+        Button:
+            text:"ZORLUK SEÇ"
+            id: back  
+            size_hint:(0.2,.1)
+            pos_hint:{'x':0,'y':0}
+            on_press:
+                root.manager.current = 'mode' 
+        Button:
+            text:""
+            id: greenredbutton
+            background_color: 0.0, 0.0, 0.0, 0.0
+            size_hint:(0.2,.1)
+            pos_hint:{'x':0,'y':0.4}
+<SemiHardScreen>:
+    cols:2
+    size_hint:0.6,0.7
+    pos_hint: {'center_x': 0.5,'center_y': 0.5}
+    orientation: 'vertical'
+    FloatLayout:
+    
+        Label:
+            text:'BAŞLAMAK İÇİN YENİ CÜMLEYE BAS'
+            size_hint_y: None
+            id:sentence_box
+            size_hint:1,0.2
+            pos_hint:{'x':0,'y':0.8}
+            text_size: self.width, None
+            
+        TextInput:
+            id:answerId
+            hint_tex:"CEVABI BURAYA YAZIN.%100 DOĞRULUK İÇİN NOKTALAMA KURALLARINA VE BÜYÜK HARFE DİKKAT ET!"
+            padding_y:20,20
+            size_hint:1,0.2
+            pos_hint:{'x':0,'y':0.6}
+            readonly: True
+            
+        Button:
+            text:"YENİ CÜMLE"
+            id: forward
+            size_hint:(0.5,.2)
+            pos_hint:{'x':0.5,'y':0.0}
+            on_press:
+                root.sendSemiHardSentence()
+                answerId.readonly = False     
+                
+        Button:
+            text:"KONTROL ET"
+            id: check_button  
+            size_hint:(0.5,0.2)
+            pos_hint:{'x':0.5,'y':0.3}
+            on_press:
+                root.submit(answerId.text)
+                
+        Label:
+            text:''
+            id:feedback
+            pos_hint:{'x':0,'y':0.3}
+            size_hint:(1,0.1)
+            text_size: self.width, None
+            height: self.texture_size[1]
+            
+        Button:
+            text:"ZORLUK SEÇ"
+            id: back  
+            size_hint:(0.2,.1)
+            pos_hint:{'x':0,'y':0}
+            on_press:
+                root.manager.current = 'mode' 
+        Button:
+            text:""
+            id: greenredbutton
+            background_color: 0.0, 0.0, 0.0, 0.0
+            size_hint:(0.2,.1)
+            pos_hint:{'x':0,'y':0.4}
+
+ 
+<HardScreen>:
+    cols:2
+    size_hint:0.6,0.7
+    pos_hint: {'center_x': 0.5,'center_y': 0.5}
+    orientation: 'vertical'
+    FloatLayout:
+    
+        Label:
+            text: 'BAŞLAMAK İÇİN YENİ CÜMLEYE BAS'
+            size_hint: 1, None
+            height: '40dp'
+            id: sentence_box
+            pos_hint: {'x': 0, 'y': 0.8}
+            text_size: self.width, None
+            
+        TextInput:
+            id:answerId
+            hint_tex:"CEVABI BURAYA YAZIN.%100 DOĞRULUK İÇİN NOKTALAMA KURALLARINA VE BÜYÜK HARFE DİKKAT ET!"
+            padding_y:20,20
+            size_hint:1,0.2
+            pos_hint:{'x':0,'y':0.6}
+            readonly: True
+            
+        Button:
+            text:"YENİ CÜMLE"
+            id: forward
+            size_hint:(0.5,.2)
+            pos_hint:{'x':0.5,'y':0.0}
+            on_press:
+                root.sendHardSentence()
+                answerId.readonly = False  
+                
+        Button:
+            text:"KONTROL ET"
+            id: check_button  
+            size_hint:(0.5,0.2)
+            pos_hint:{'x':0.5,'y':0.3}
+            on_press:
+                root.submit(answerId.text)
+                
+        Label:
+            text:''
+            id:feedback
+            pos_hint:{'x':0,'y':0.3}
+            size_hint:(1,0.1)
+            text_size: self.width, None
+            height: self.texture_size[1]
+            
+        Button:
+            text:"ZORLUK SEÇ"
+            id: back  
+            size_hint:(0.2,.1)
+            pos_hint:{'x':0,'y':0}
+            on_press:
+                root.manager.current = 'mode' 
+        Button:
+            text:""
+            id: greenredbutton
+            background_color: 0.0, 0.0, 0.0, 0.0
+            size_hint:(0.2,.1)
+            pos_hint:{'x':0,'y':0.4}
+<VeryHardScreen>:
+    cols:2
+    size_hint:0.6,0.7
+    pos_hint: {'center_x': 0.5,'center_y': 0.5}
+    orientation: 'vertical'
+    FloatLayout:
+    
+        Label:
+            text:'BAŞLAMAK İÇİN YENİ CÜMLEYE BAS'
+            size_hint_y: None
+            id:sentence_box
+            size_hint:1,0.2
+            pos_hint:{'x':0,'y':0.8}
+            text_size: self.width, None
+            
+        TextInput:
+            id:answerId
+            hint_tex:"CEVABI BURAYA YAZIN.%100 DOĞRULUK İÇİN NOKTALAMA KURALLARINA VE BÜYÜK HARFE DİKKAT ET!"
+            padding_y:20,20
+            size_hint:1,0.2
+            pos_hint:{'x':0,'y':0.6}
+            readonly: True
+            
+        Button:
+            text:"YENİ CÜMLE"
+            id: forward
+            size_hint:(0.5,.2)
+            pos_hint:{'x':0.5,'y':0.0}
+            on_press:
+                root.sendVeryHardSentence()
+                answerId.readonly = False       
+                
+        Button:
+            text:"KONTROL ET"
+            id: check_button  
+            size_hint:(0.5,0.2)
+            pos_hint:{'x':0.5,'y':0.3}
+            on_press:
+                root.submit(answerId.text)
+                
+        Label:
+            text:''
+            id:feedback
+            pos_hint:{'x':0,'y':0.5}
+            size_hint:(1,0.1)
+            text_size: self.width, None
+            height: self.texture_size[1]
+            
+        Button:
+            text:"ZORLUK SEÇ"
+            id: back  
+            size_hint:(0.2,.1)
+            pos_hint:{'x':0,'y':0}
+            on_press:
+                root.manager.current = 'mode' 
+        Button:
+            text:""
+            id: greenredbutton
+            background_color: 0.0, 0.0, 0.0, 0.0
+            size_hint:(0.2,.1)
+            pos_hint:{'x':0,'y':0.4}
