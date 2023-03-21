@@ -168,7 +168,7 @@ class VeryHardScreen(Screen):
             self.ids.feedback.text = f"{similarity_percentage:.2f}% Oranında doğru"
             if similarity_percentage <= 85:
                 self.ids.greenredbutton.background_color = (1.0, 0.0, 0.0, 1.0)
-                print("hey")
+                
             else:
                 self.ids.greenredbutton.background_color = (0.0, 1.0, 0.0, 1.0)
         else:
